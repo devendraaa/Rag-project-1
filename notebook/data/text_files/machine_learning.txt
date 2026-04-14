@@ -1,0 +1,4 @@
+Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to perform tasks without explicit instructions.
+It involves training models on data to make predictions or decisions without being explicitly programmed to perform the task.
+Machine learning algorithms can be categorized into three main types: supervised learning, unsupervised learning,
+            
