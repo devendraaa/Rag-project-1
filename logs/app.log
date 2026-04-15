@@ -1,0 +1,56 @@
+[2026-04-15 21:35:58,685] INFO - src.pipeline.query_pipeline - Loading query pipeline...
+[2026-04-15 21:35:58,915] INFO - src.pipeline.query_pipeline - Vector store initialized.
+[2026-04-15 21:35:58,918] INFO - sentence_transformers.base.model - No device provided, using cpu
+[2026-04-15 21:35:59,630] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:35:59,643] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+[2026-04-15 21:35:59,892] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:35:59,895] WARNING - huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-04-15 21:35:59,915] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-04-15 21:35:59,919] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+[2026-04-15 21:36:00,163] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:00,176] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:00,424] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:00,652] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+[2026-04-15 21:36:00,896] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:00,908] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:01,160] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:01,171] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:01,869] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:02,115] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:02,130] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:02,569] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:02,854] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:03,106] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:03,365] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:03,618] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:03,633] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:03,888] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:03,901] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:04,148] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:04,162] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:04,411] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:04,428] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:04,690] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-04-15 21:36:04,936] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-04-15 21:36:05,293] INFO - httpx - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-15 21:36:05,317] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-04-15 21:36:05,572] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+[2026-04-15 21:36:05,585] INFO - src.data_embedding.data_embed - Model 'all-MiniLM-L6-v2' loaded successfully.
+[2026-04-15 21:36:05,586] INFO - src.data_embedding.data_embed - embedding dimension: 384
+[2026-04-15 21:36:05,586] INFO - src.data_embedding.data_embed - Embedding model 'all-MiniLM-L6-v2' initialized successfully.
+[2026-04-15 21:36:05,587] INFO - src.pipeline.query_pipeline - Embedding model initialized.
+[2026-04-15 21:36:05,588] INFO - src.pipeline.query_pipeline - RAG retrieval system initialized.
+[2026-04-15 21:36:05,589] INFO - src.pipeline.query_pipeline - Running RAG pipeline with query: 'What is layer normalization?'
+[2026-04-15 21:36:06,475] INFO - src.data_embedding.data_embed - Generating embeddings for 1 texts...
+[2026-04-15 21:36:06,513] INFO - src.data_embedding.data_embed - Embeddings generated successfully with shape: (1, 384)
+[2026-04-15 21:36:07,986] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-04-15 21:36:08,020] INFO - src.pipeline.query_pipeline - Response from LLM:
+[2026-04-15 21:36:08,021] INFO - src.pipeline.query_pipeline - <think>
+Okay, let's tackle this question. The user is asking, "What is layer normalization?" and I need to answer based only on the provided context.
+
+First, I'll scan through the context to find any mentions of layer normalization. The first paragraph under the "Layer Normalization" section says that the performance and training stability of LLMs are significantly affected by layer normalization. It mentions pre-norm, which is normalizing inputs rather than outputs, being more common in LLMs to stabilize training. Examples given are BLOOM and AlexaTM using an additional layer normalization before the embedding layer for stabilization. 
+
+The rest of the context talks about GLU variants and other technical details, but those don't relate directly to layer normalization. The key points here are that layer normalization affects performance and training stability, and pre-norm is a method used in LLMs. The answer should focus on that without adding external knowledge. Since the user wants a concise answer, I'll summarize the relevant parts from the context. I don't see any other definitions or explanations beyond what's in the first paragraph. So the answer should state that layer normalization impacts performance and training stability, with pre-norm being a common approach in LLMs for stabilization.
+</think>
+
+Layer normalization is a technique that significantly impacts the performance and training stability of large language models (LLMs). It involves normalizing inputs (pre-norm) rather than outputs to stabilize training, as seen in models like BLOOM and AlexaTM, which add an extra normalization step before the embedding layer.
