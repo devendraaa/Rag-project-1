@@ -10,3 +10,5 @@ chromadb
 langchain-groq
 python-dotenv
 typesense
+fastapi
+uvicorn
